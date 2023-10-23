@@ -17,7 +17,7 @@ workers=(2 4 6)
 
 ## Loop over workers
 for num_workers in "${workers[@]}"; do
-    ##------------------ SPARK ------------------
+    ##------------------ PIG ------------------
     ## Clean out directory
     gsutil rm -rf $my_bucket/out/pig
     gsutil rm -rf $my_bucket/out/spark
