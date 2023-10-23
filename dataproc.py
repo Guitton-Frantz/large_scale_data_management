@@ -35,7 +35,7 @@ STORE new_pagerank
     USING PigStorage('\t');
 """)
 
-params = { 'd': '0.5', 'docs_in': 'gs://small_page_links/out/pagerank_data_simple' }
+params = { 'd': '0.85', 'docs_in': 'gs://small_page_links/out/pagerank_data_simple' }
 
 stats = INIT.bind(params).runSingle()
 if not stats.isSuccessful():
