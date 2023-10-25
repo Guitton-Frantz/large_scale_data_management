@@ -13,7 +13,7 @@ my_bucket="gs://my_own_bucket_lsdm"
 project_id="true-server-401112"
 
 ## Define list of workers
-workers=(2 4 6)
+workers=(2 3 4 5)
 
 ## Loop over workers
 for num_workers in "${workers[@]}"; do
@@ -27,23 +27,26 @@ for num_workers in "${workers[@]}"; do
 
     ## run
     ## (suppose that out directory is empty !!)
-    pig_start_time=$(date +%s)
+    pig_start_time=$(date +%s%N)
     gcloud dataproc jobs submit pig --region europe-west1 --cluster cluster-a35a -f $my_bucket/dataproc.py
-    pig_end_time=$(date +%s)
+    pig_end_time=$(date +%s%N)
 
     ##------------------ SPARK ------------------
 
     ## run
     ## (suppose that out directory is empty !!)
-    spark_start_time=$(date +%s)
+    spark_start_time=$(date +%s%N)
     gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a $my_bucket/pagerank-notype.py -- data/small_page_links.nt 3
-    spark_end_time=$(date +%s)
+    spark_end_time=$(date +%s%N)
 
     ## delete cluster...
     gcloud dataproc clusters delete cluster-a35a --region europe-west1 -Y
 
     pig_computing_time=$((pig_end_time - pig_start_time))
     spark_computing_time=$((spark_end_time - spark_start_time))
+
+    pig_computing_time=$pig_computing_time/1000000
+    spark_computing_time$$spark_computing_time/1000000
 
     ## access results
     gsutil cat $my_bucket/out/pig/pagerank_data_10/part-r-00000 >pig_results_$num_workers.txt
