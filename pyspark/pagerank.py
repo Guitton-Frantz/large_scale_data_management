@@ -25,13 +25,13 @@ bin/spark-submit examples/src/main/python/pagerank.py data/mllib/pagerank_data.t
 import re
 import sys
 from operator import add
-from typing import Iterable, Tuple
+from typing import Iterable, Tuple, List
 
 from pyspark.resultiterable import ResultIterable
 from pyspark.sql import SparkSession
 
 
-def computeContribs(urls: ResultIterable[str], rank: float) -> Iterable[Tuple[str, float]]:
+def computeContribs(urls: List[str], rank: float) -> Iterable[Tuple[str, float]]:
     """Calculates URL contributions to the rank of other URLs."""
     num_urls = len(urls)
     for url in urls:
@@ -75,18 +75,19 @@ if __name__ == "__main__":
     # Calculates and updates URL ranks continuously using PageRank algorithm.
     for iteration in range(int(sys.argv[2])):
         # Calculates URL contributions to the rank of other URLs.
+        links = links.partitionBy(10)
+        ranks = ranks.partitionBy(10)
         contribs = links.join(ranks).flatMap(lambda url_urls_rank: computeContribs(
             url_urls_rank[1][0], url_urls_rank[1][1]  # type: ignore[arg-type]
         ))
 
         # Re-calculates URL ranks based on neighbor contributions.
         ranks = contribs.reduceByKey(add).mapValues(lambda rank: rank * 0.85 + 0.15)
+        out = "gs://tristan_kfc_bucket/out/spark/pagerank_data_" + str(iteration + 1)
+        ranks.saveAsTextFile(out) 
 
     # Collects all URL ranks and dump them to console.
-    for (link, rank) in ranks.collect():
-        print("%s has rank: %s." % (link, rank))
-        # output the ranks in a txt
-        out = "gs://my_own_bucket_lsdm/out/spark/pagerank_data_" + str(iteration + 1)
-        ranks.saveAsTextFile(out)
-
+    # for (link, rank) in ranks.collect():
+        #print("%s has rank: %s." % (link, rank))
+              
     spark.stop()
