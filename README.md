@@ -42,5 +42,5 @@ Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri XXXXXXXXXX
 |   |   |
 
 
-##Conclusion
+## Conclusion
 Ce projet nous a permis de mettre en oeuvre les différentes implémentations de pagerank étudiées au sein de ce module dans l'objectif de les comparer. Nous résumons les principales conclusions obtenues dans cette expérience ci-dessous.
