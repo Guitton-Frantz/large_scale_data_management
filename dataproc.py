@@ -49,3 +49,30 @@ for i in range(3):
    if not stats.isSuccessful():
       raise 'failed'
    params["docs_in"] = out
+import csv
+
+def top_pages_by_pagerank(file_path, top_n=10):
+    with open(file_path, 'r') as csvfile:
+        reader = csv.reader(csvfile)
+        next(reader)  # Ignorer l'en-tête s'il y en a un
+
+        # Utiliser une liste pour stocker les 10 premières pages
+        top_pages = []
+
+        for row in reader:
+            page = row[0]
+            pagerank = float(row[1])
+
+            # Insérer la page dans la liste triée par ordre décroissant de PageRank
+            top_pages.append((page, pagerank))
+            top_pages = sorted(top_pages, key=lambda x: x[1], reverse=True)[:top_n]
+
+    return top_pages
+
+# Exemple d'utilisation
+file_path = 'resultats_pagerank.csv'  # Remplacez cela par le chemin de votre fichier de résultats
+top_10_pages = top_pages_by_pagerank(file_path, top_n=10)
+
+print("Top 10 pages avec le plus grand PageRank :")
+for i, (page, pagerank) in enumerate(top_10_pages, start=1):
+    print(f"{i}. Page {page} avec un PageRank de {pagerank}")
