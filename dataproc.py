@@ -70,9 +70,4 @@ def top_pages_by_pagerank(file_path, top_n=10):
     return top_pages
 
 # Exemple d'utilisation
-file_path = 'resultats_pagerank.csv'  # Remplacez cela par le chemin de votre fichier de résultats
-top_10_pages = top_pages_by_pagerank(file_path, top_n=10)
-
-print("Top 10 pages avec le plus grand PageRank :")
-for i, (page, pagerank) in enumerate(top_10_pages, start=1):
-    print(f"{i}. Page {page} avec un PageRank de {pagerank}")
+file_path = 'resultats_pagerank.csv'
