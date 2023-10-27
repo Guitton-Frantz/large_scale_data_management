@@ -6,7 +6,7 @@
 gsutil cp dataproc.py gs://my_own_bucket_lsdm/
 
 ## copy spark code
-gsutil cp ./pyspark/pagerank-notype.py gs://my_own_bucket_lsdm/
+gsutil cp ./pyspark/pagerank.py gs://my_own_bucket_lsdm/
 
 data="gs:///public_lddm_data/"
 my_bucket="gs://my_own_bucket_lsdm"
@@ -37,7 +37,7 @@ for num_workers in "${workers[@]}"; do
     ## run
     ## (suppose that out directory is empty !!)
     spark_start_time=$(date +%s%N)
-    gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a $my_bucket/pagerank-notype.py -- data/small_page_links.nt 3
+    gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a $my_bucket/pagerank.py -- data/small_page_links.nt 3
     spark_end_time=$(date +%s%N)
 
     ## delete cluster...
