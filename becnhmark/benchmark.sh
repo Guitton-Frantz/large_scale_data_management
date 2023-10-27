@@ -17,13 +17,14 @@ workers=(2 3 4 5)
 
 ## Loop over workers
 for num_workers in "${workers[@]}"; do
-    ##------------------ PIG ------------------
     ## Clean out directory
     gsutil rm -rf $my_bucket/out/pig
     gsutil rm -rf $my_bucket/out/spark
 
     ## create the cluster
     gcloud dataproc clusters create cluster-a35a --enable-component-gateway --region europe-west1 --zone europe-west1-c --master-machine-type n1-standard-4 --master-boot-disk-size 500 --num-workers $num_workers --worker-machine-type n1-standard-4 --worker-boot-disk-size 500 --image-version 2.0-debian10 --project $project_id
+
+    ##------------------ PIG ------------------
 
     ## run
     ## (suppose that out directory is empty !!)
@@ -41,6 +42,8 @@ for num_workers in "${workers[@]}"; do
 
     ## delete cluster...
     gcloud dataproc clusters delete cluster-a35a --region europe-west1 -Y
+
+    python ./score_finder_spark.py
 
     pig_computing_time=$((pig_end_time - pig_start_time))
     spark_computing_time=$((spark_end_time - spark_start_time))
