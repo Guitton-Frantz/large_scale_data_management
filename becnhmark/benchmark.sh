@@ -49,7 +49,7 @@ for num_workers in "${workers[@]}"; do
     spark_computing_time=$((spark_end_time - spark_start_time))
 
     pig_computing_time=$pig_computing_time/1000000
-    spark_computing_time$$spark_computing_time/1000000
+    spark_computing_time=$spark_computing_time/1000000
 
     ## access results
     gsutil cat $my_bucket/out/pig/pagerank_data_10/part-r-00000 >pig_results_$num_workers.txt
