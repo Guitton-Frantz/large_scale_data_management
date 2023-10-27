@@ -8,7 +8,7 @@ gsutil cp dataproc.py gs://my_own_bucket_lsdm/
 ## copy spark code
 gsutil cp ./pyspark/pagerank.py gs://my_own_bucket_lsdm/
 
-data="gs:///public_lddm_data/"
+data="gs://public_lddm_data"
 my_bucket="gs://my_own_bucket_lsdm"
 project_id="true-server-401112"
 
@@ -37,13 +37,13 @@ for num_workers in "${workers[@]}"; do
     ## run
     ## (suppose that out directory is empty !!)
     spark_start_time=$(date +%s%N)
-    gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a $my_bucket/pagerank.py -- data/small_page_links.nt 3
+    gcloud dataproc jobs submit pyspark --region europe-west1 --cluster cluster-a35a $my_bucket/pagerank.py -- $data/page_links_en.nt.bz2 3
     spark_end_time=$(date +%s%N)
 
     ## delete cluster...
     gcloud dataproc clusters delete cluster-a35a --region europe-west1 -Y
 
-    python ./score_finder_spark.py
+    python ./score_finder_spark.py >> res_spark.txt
 
     pig_computing_time=$((pig_end_time - pig_start_time))
     spark_computing_time=$((spark_end_time - spark_start_time))

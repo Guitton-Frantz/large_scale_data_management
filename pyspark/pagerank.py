@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
         # Re-calculates URL ranks based on neighbor contributions.
         ranks = contribs.reduceByKey(add).mapValues(lambda rank: rank * 0.85 + 0.15)
-        out = "gs://tristan_kfc_bucket/out/spark/pagerank_data_" + str(iteration + 1)
+        out = "gs://my_own_bucket_lsdm/out/spark/pagerank_data_" + str(iteration + 1)
         ranks.saveAsTextFile(out) 
 
     # Collects all URL ranks and dump them to console.
