@@ -44,7 +44,7 @@ for num_workers in "${workers[@]}"; do
     gcloud dataproc clusters delete cluster-a35a --region europe-west1 -Y
 
     python ./score_finder_spark.py >> res_spark.txt
-
+    python ./bestpig.py >> res_pig.txt
     pig_computing_time=$((pig_end_time - pig_start_time))
     spark_computing_time=$((spark_end_time - spark_start_time))
 
