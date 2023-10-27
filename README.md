@@ -19,25 +19,28 @@ bash /benchmark/benchmark.sh
 
 | Nombre de workers | Temps d'éxécution |
 |---|---|
-|   |   |
-|   |   |
-|   |   |
+| 2 |   |
+| 3 |   |
+| 4 |   |
+| 5 |   |
 
 ### Spark
 
 | Nombre de workers | Temps d'éxécution |
 |---|---|
-|   |   |
-|   |   |
-|   |   |
+| 2 | 48,53347917451666 |
+| 3 | 39,96790781611666 |
+| 4 | 40,70230198851667 |
+| 5 | 39,5698322265 |
+
 ##Comparaison graphique des différentes implémentations :
 Le graphique ci-dessous met en lumière les différences de temps entre les différentes implémentations du pagerank en fonction du nombre de worker.
 
 ## Result PageRank
-Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX, avec un pagerank de XXXXXXXXXXX. 
+Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbpedia.org/resource/Living_people, avec un pagerank de 36794.33146754482. 
 | URL de la page | Score du PageRank |
 |---|---|
-|   |   |
+| http://dbpedia.org/resource/Living_people |  36794.33146754482  |
 |   |   |
 |   |   |
 
