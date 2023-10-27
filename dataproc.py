@@ -2,7 +2,7 @@
 from org.apache.pig.scripting import *
 
 INIT = Pig.compile("""
-A = LOAD 'gs://public_lddm_data/page_links_en.nt.bz2' using PigStorage(' ') as (url:chararray, p:chararray, link:chararray);
+A = LOAD 'gs://public_lddm_data/small_page_links.nt' using PigStorage(' ') as (url:chararray, p:chararray, link:chararray);
 B = GROUP A by url;                                                                                  
 C = foreach B generate group as url, 1 as pagerank, A.link as links;                                 
 STORE C into '$docs_in';
@@ -34,40 +34,40 @@ STORE new_pagerank
     INTO '$docs_out' 
     USING PigStorage('\t');
 """)
+if __name__ == '__main__':
+    params = { 'd': '0.85', 'docs_in': 'gs://gabibou_bucket/out/pagerank_data_simple' }
 
-params = { 'd': '0.85', 'docs_in': 'gs://small_page_links/out/pagerank_data_simple' }
-
-stats = INIT.bind(params).runSingle()
-if not stats.isSuccessful():
+    stats = INIT.bind(params).runSingle()
+    if not stats.isSuccessful():
       raise 'failed initialization'
 
-for i in range(3):
-   out = "gs://my_own_bucket_lsdm/out/pig/pagerank_data_" + str(i + 1)
-   params["docs_out"] = out
-   Pig.fs("rmr " + out)
-   stats = UPDATE.bind(params).runSingle()
-   if not stats.isSuccessful():
-      raise 'failed'
-   params["docs_in"] = out
-import csv
+    for i in range(3):
+        out = "gs://gabibou_bucket/out/pig/pagerank_data_" + str(i + 1)
+        params["docs_out"] = out
+        Pig.fs("rmr " + out)
+        stats = UPDATE.bind(params).runSingle()
+        if not stats.isSuccessful():
+            raise 'failed'
+        params["docs_in"] = out
 
-def top_pages_by_pagerank(file_path, top_n=10):
-    with open(file_path, 'r') as csvfile:
-        reader = csv.reader(csvfile)
-        next(reader)  # Ignorer l'en-tête s'il y en a un
+    def top_pages_by_pagerank(file_path, top_n=10):
+        with open(file_path, 'r') as csvfile:
+            reader = csv.reader(csvfile)
+            next(reader)  # Ignorer l'en tete s il y en a un
 
-        # Utiliser une liste pour stocker les 10 premières pages
-        top_pages = []
+            # Utiliser une liste pour stocker les 10 premieres pages
+            top_pages = []
 
-        for row in reader:
-            page = row[0]
-            pagerank = float(row[1])
+            for row in reader:
+                page = row[0]
+                pagerank = float(row[1])
 
-            # Insérer la page dans la liste triée par ordre décroissant de PageRank
-            top_pages.append((page, pagerank))
-            top_pages = sorted(top_pages, key=lambda x: x[1], reverse=True)[:top_n]
+                # Inserer la page dans la liste triee par ordre decroissant de PageRank
+                top_pages.append((page, pagerank))
+                top_pages = sorted(top_pages, key=lambda x: x[1], reverse=True)[:top_n]
 
-    return top_pages
+        return top_pages
 
 # Exemple d'utilisation
-file_path = 'resultats_pagerank.csv'
+    file_path = 'gs://gabibou_bucket/out/pig/pagerank_data_3/part-r-00000'
+    print(top_pages_by_pagerank(file_path))
