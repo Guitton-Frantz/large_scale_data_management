@@ -50,7 +50,7 @@ if __name__ == '__main__':
             raise 'failed'
         params["docs_in"] = out
 
-    def top_pages_by_pagerank(file_path, top_n=10):
+    def top_pages_by_pagerank(top_n=10):
         my_bucket = "gabibou_bucket"
 
         storage_client = storage.Client()
