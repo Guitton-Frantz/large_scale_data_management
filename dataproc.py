@@ -1,6 +1,6 @@
 #!/usr/bin/python
 from org.apache.pig.scripting import *
-
+from google.cloud import storage
 INIT = Pig.compile("""
 A = LOAD 'gs://public_lddm_data/small_page_links.nt' using PigStorage(' ') as (url:chararray, p:chararray, link:chararray);
 B = GROUP A by url;                                                                                  
@@ -51,6 +51,16 @@ if __name__ == '__main__':
         params["docs_in"] = out
 
     def top_pages_by_pagerank(file_path, top_n=10):
+        my_bucket = "gabibou_bucket"
+
+        storage_client = storage.Client()
+        bucket = storage_client.bucket(my_bucket)
+        for blob in bucket.list_blobs():
+            #find the blob that starts with out/spark/ and doesn't end with /
+            if blob.name.startswith('out/pig/pagerank_data_3') and not blob.name.endswith('/'):
+                print(blob.name)
+                file_path = blob.name
+                
         with open(file_path, 'r') as csvfile:
             reader = csv.reader(csvfile)
             next(reader)  # Ignorer l'en tete s il y en a un
@@ -69,5 +79,4 @@ if __name__ == '__main__':
         return top_pages
 
 # Exemple d'utilisation
-    file_path = 'gs://gabibou_bucket/out/pig/pagerank_data_3/part-r-00000'
-    print(top_pages_by_pagerank(file_path))
+    print(top_pages_by_pagerank())
