@@ -46,7 +46,7 @@ Liste des fichiers utilisés :
 
 ### Modifications apportées
 
-Le pagerank pyspark a été modifié afin d'ajouter le partitionnement des rdd links et rank afin de réduire le shuffle avant les itération pour le links puis pendant avec le ranks. 
+Le pagerank pyspark a été modifié afin d'ajouter le partitionnement des rdd links et rank afin de réduire le shuffle avant les itérations pour le links puis pendant avec le ranks. 
 
 
 <a name="resultats"/>
@@ -102,8 +102,12 @@ Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbp
 
 ## Discussion des résultats
 
+Nous pouvons constater que pig est globalement l'implémentation la moins performante. Cela peut s'expliquer par les nombreuses phases d'écritures et de lectures sur les disques durs. Pig est l'implémentation qui subit le plus d'amélioration en moyenne grace à l'augmentation du nombre de noeuds (6.67 minutes). L'implémentation spark sans partitionnement est au global plus performante que pig, toutefois lorsque le nombre de noeud est égal à 5, il est plus lent que pig, cela peut en partie s'expliquer à cause de la mauvaise exploitation de spark. En effet, les données ne sont pas bien répartie entre les différentes machines, il y a donc des problèmes dû au shuffle lors de la jointure. Son temps d'amélioration moyen est le plus faible du trio avec environ 2 minutes d'amélioration par noeud ajouté. Enfin, le spark avec partionnement est la meilleure implémentation avec les meilleures résultats quelque soit le nombre de noeud. Son temps d'amélioration moyen est 2.37 minutes.
 
 <a name="conclusion"/>
 
 ## Conclusion
-Ce projet nous a permis de mettre en oeuvre les différentes implémentations de pagerank étudiées au sein de ce module dans l'objectif de les comparer. Nous résumons les principales conclusions obtenues dans cette expérience ci-dessous.
+Ce projet nous a permis de mettre en oeuvre les différentes implémentations de pagerank étudiées au sein de ce module dans l'objectif de les comparer. 
+
+Ces résultats sont cohérents avec ce qui a été étudié en cours. Toutefois pour avoir des résultats plus pertinants il faudrait augmenter le nombre noeuds par tranche de 10 afin d'avoir des différences plus nettes. Il faudrait aussi augmenter grandement le nombre d'itérations pour les mêmes raisons. Il serait intéressant aussi de faire varier le nombre d'itérations dans toucher au nombre de noeud pour observer les différences.
+
