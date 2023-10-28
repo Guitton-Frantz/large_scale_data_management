@@ -46,7 +46,7 @@ Liste des fichiers utilisés :
 
 ### Modifications apportées
 
-* Partionnement des données pour obtenir une meilleur localité des données
+Le pagerank pyspark a été modifié afin d'ajouter le partitionnement des rdd links et rank afin de réduire le shuffle avant les itération pour le links puis pendant avec le ranks. 
 
 
 <a name="resultats"/>
