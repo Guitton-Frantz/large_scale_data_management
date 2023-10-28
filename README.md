@@ -20,7 +20,9 @@ bash /benchmark/benchmark.sh
 * [4-Résultat PageRank](#resultats-pagerank)
 * [5-Conclusion](#conclusion)
 
+
 <a name="configuration"/>
+
 ## Configuration
 
 Pour réaliser cette expérience, nous avons utilisé la configuration suivante pour pig et pour sparks :
@@ -41,6 +43,7 @@ Liste des fichiers utilisés :
 * Code source d'origine utilisé : https://github.com/momo54/large_scale_data_management
 
 <a name="resultats"/>
+
 ## Resultats
 
 ### Pig
@@ -62,10 +65,12 @@ Liste des fichiers utilisés :
 | 5 | 34,67181667 |
 
 <a name="comparaison-graphique-des-différentes-implementations"/>
+
 ## Comparaison graphique des différentes implémentations :
 Le graphique ci-dessous met en lumière les différences de temps entre les différentes implémentations du pagerank en fonction du nombre de worker.
 
 <a name="resultats-pagerank"/>
+
 ## Resultats PageRank
 Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbpedia.org/resource/Living_people, avec un pagerank de 36794.33146754482.
 
@@ -74,5 +79,6 @@ Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbp
 | http://dbpedia.org/resource/Living_people |  36794.33146754482  |
 
 <a name="conclusion"/>
+
 ## Conclusion
 Ce projet nous a permis de mettre en oeuvre les différentes implémentations de pagerank étudiées au sein de ce module dans l'objectif de les comparer. Nous résumons les principales conclusions obtenues dans cette expérience ci-dessous.
