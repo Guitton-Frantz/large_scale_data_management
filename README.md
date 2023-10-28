@@ -1,6 +1,6 @@
 # Large scale data management Benchmark
 
-Au sein du module Gestion de données distribuées à large échelle enseigné par Pascal Molli, nous devions réaliser un projet comparant les performances de l'algorithme pagerank entre une implémentations en pig et une en PySpark dans un contexte de données massives sur l'environnement google cloud plateform.
+Au sein du module Gestion de données distribuées à large échelle enseigné par Pascal Molli, nous devions réaliser un projet comparant les performances de l'algorithme [PageRank](https://wikipedia.org/wiki/PageRank) entre une implémentations en [Pig](https://pig.apache.org/) et une en [PySpark](https://spark.apache.org/docs/latest/api/python/index.html) dans un contexte de données massives sur l'environnement [Google Cloud Platform](https://cloud.google.com).
 
 ## Run Locally
 
@@ -14,11 +14,13 @@ bash /benchmark/benchmark.sh
 - [@Marius Guitton-Frantz](https://github.com/Guitton-Frantz)
 
 ## Index
+
 * [1-Configuration](#configuration) 
 * [2-Resultats](#resultats) 
 * [3-Comparaison graphique des différentes implémentations](#comparaison-graphique-des-différentes-implementations)
 * [4-Résultat PageRank](#resultats-pagerank)
-* [5-Conclusion](#conclusion)
+* [5-Discussion des résultats](#discussion-des-resultats)
+* [6-Conclusion](#conclusion)
 
 
 <a name="configuration"/>
@@ -34,13 +36,21 @@ Pour réaliser cette expérience, nous avons utilisé la configuration suivante 
 * **Le fichier de données était enregistré dans le bucket**
 
 Liste des fichiers utilisés : 
-* Le fichier d'exécution peut être trouvé ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/becnhmark/benchmark.sh
+* Le fichier d'exécution peut être trouvé : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/becnhmark/benchmark.sh
 
-* Le fichier pig ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/dataproc.py
+* Le fichier Pig : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/dataproc.py
 
-* Le fichier spark ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/pyspark/pagerank.py
+* Le fichier PySpark : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/pyspark/pagerank.py
 
 * Code source d'origine utilisé : https://github.com/momo54/large_scale_data_management
+
+### Modifications apportées
+#### **Fichier Pig**
+* 
+
+#### **Fichier PySpark**
+* Partionnement des données pour obtenir une meilleur localité des données
+
 
 <a name="resultats"/>
 
@@ -77,6 +87,12 @@ Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbp
 | URL de la page | Score du PageRank |
 |---|---|
 | http://dbpedia.org/resource/Living_people |  36794.33146754482  |
+
+
+<a name="discussion-des-resultats"/>
+
+## Discussion des résultats
+
 
 <a name="conclusion"/>
 
