@@ -71,6 +71,7 @@ if __name__ == "__main__":
 
     # Loads all URLs with other URL(s) link to from input file and initialize ranks of them to one.
     ranks = links.map(lambda url_neighbors: (url_neighbors[0], 1.0))
+    #links ne change pas, il n'y a pas besoin de le partitionBy plusieurs fois
     links = links.partitionBy(numPartitions = None)
     # Calculates and updates URL ranks continuously using PageRank algorithm.
     for iteration in range(int(sys.argv[2])):
