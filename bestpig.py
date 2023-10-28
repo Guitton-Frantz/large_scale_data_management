@@ -2,7 +2,7 @@ from google.cloud import storage
 import os
 import re
 def top_pages_by_pagerank(top_n=10):
-    my_bucket = "gabibou_bucket"
+    my_bucket = "my_own_bucket_lsdm"
 
     storage_client = storage.Client()
     bucket = storage_client.bucket(my_bucket)
