@@ -71,6 +71,16 @@ Liste des fichiers utilisés :
 | 4 | 35,09608333 |
 | 5 | 34,88228333 |
 
+### Spark avec Partitionnement
+
+| Nombre de workers | Temps d'éxécution en minutes |
+|---|---|
+| 2 | 39,23416667 |
+| 3 | 38,15843333 |
+| 4 | 34,83628333 |
+| 5 | 27,11693333 |
+
+
 <a name="comparaison-graphique-des-différentes-implementations"/>
 
 ## Comparaison graphique des différentes implémentations :
