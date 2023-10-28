@@ -65,7 +65,7 @@ Liste des fichiers utilisés :
 | 4 | 37,71896667 |
 | 5 | 31,58546667 |
 
-### Spark avec Partition
+### Spark sans Partitionnement
 
 | Nombre de workers | Temps d'éxécution en minutes |
 |---|---|
