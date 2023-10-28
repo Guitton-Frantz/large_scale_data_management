@@ -1,0 +1,984 @@
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+3349.6574373489043 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_1/part-00001
+1379.07361322424 '<http://dbpedia.org/resource/Main_Belt_asteroids>'
+out/spark/pagerank_data_1/part-00002
+3550.7690587608195 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_1/part-00003
+4963.844326281799 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00004
+3866.1414042960546 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_1/part-00005
+4559.67559920379 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00006
+6246.384619364981 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00007
+5231.5372862803415 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/part-00008
+21291.971526226098 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00009
+4120.470433256867 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+4453.433498198657 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_2/part-00001
+2362.1448453796415 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_2/part-00002
+6077.055046996692 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00003
+5268.509264013595 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_2/part-00004
+3368.9941962760618 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_2/part-00005
+3354.5752884389362 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00006
+6219.077799065044 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00007
+6514.254268522069 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00008
+33095.47261871786 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00009
+5554.338419477117 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+2876.472611866456 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_3/part-00001
+1174.4584661224887 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_3/part-00002
+10371.162005541348 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00003
+3692.395898434726 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00004
+2430.815405474115 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00005
+2335.7145657638684 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00006
+4595.7305181777765 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00007
+4111.19562166753 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00008
+36794.33146754508 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00009
+5195.347361862184 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+3349.657437348906 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_1/part-00001
+1379.07361322424 '<http://dbpedia.org/resource/Main_Belt_asteroids>'
+out/spark/pagerank_data_1/part-00002
+3550.769058760815 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_1/part-00003
+4963.844326281802 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00004
+3866.1414042960578 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_1/part-00005
+4559.675599203789 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00006
+6246.384619364981 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00007
+5231.537286280337 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/part-00008
+21291.971526226116 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00009
+4120.470433256864 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+4453.433498198651 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_2/part-00001
+2362.1448453796415 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_2/part-00002
+6077.055046996693 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00003
+5268.509264013603 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_2/part-00004
+3368.9941962760627 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_2/part-00005
+3354.575288438933 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00006
+6219.077799065049 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00007
+6514.254268522074 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00008
+33095.47261871787 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00009
+5554.338419477115 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+2876.4726118664553 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_3/part-00001
+1174.4584661224887 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_3/part-00002
+10371.162005541353 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00003
+3692.3958984347187 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00004
+2430.8154054741176 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00005
+2335.714565763868 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00006
+4595.730518177779 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00007
+4111.195621667532 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00008
+36794.33146754486 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00009
+5195.347361862181 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+3349.657437348906 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_1/part-00001
+1379.07361322424 '<http://dbpedia.org/resource/Main_Belt_asteroids>'
+out/spark/pagerank_data_1/part-00002
+3550.769058760814 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_1/part-00003
+4963.844326281804 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00004
+3866.141404296059 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_1/part-00005
+4559.6755992037915 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00006
+6246.384619364983 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00007
+5231.5372862803415 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/part-00008
+21291.97152622609 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00009
+4120.470433256867 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+4453.433498198655 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_2/part-00001
+2362.144845379642 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_2/part-00002
+6077.055046996694 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00003
+5268.5092640136 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_2/part-00004
+3368.9941962760654 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_2/part-00005
+3354.5752884389394 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00006
+6219.07779906504 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00007
+6514.254268522066 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00008
+33095.472618718115 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00009
+5554.338419477114 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+2876.4726118664535 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_3/part-00001
+1174.458466122489 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_3/part-00002
+10371.16200554135 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00003
+3692.3958984347173 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00004
+2430.8154054741153 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00005
+2335.714565763868 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00006
+4595.730518177774 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00007
+4111.195621667528 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00008
+36794.33146754519 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00009
+5195.347361862183 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+3349.6574373489048 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_1/part-00001
+1379.0736132242403 '<http://dbpedia.org/resource/Main_Belt_asteroids>'
+out/spark/pagerank_data_1/part-00002
+3550.7690587608117 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_1/part-00003
+4963.844326281802 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00004
+3866.141404296057 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_1/part-00005
+4559.675599203792 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00006
+6246.384619364979 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00007
+5231.537286280346 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/part-00008
+21291.971526226094 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00009
+4120.470433256864 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+4453.433498198655 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_2/part-00001
+2362.1448453796434 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_2/part-00002
+6077.055046996692 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00003
+5268.509264013595 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_2/part-00004
+3368.994196276063 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_2/part-00005
+3354.575288438936 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00006
+6219.07779906505 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00007
+6514.25426852207 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00008
+33095.47261871784 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00009
+5554.33841947712 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+2876.4726118664544 '<http://dbpedia.org/resource/Japan>'
+out/spark/pagerank_data_3/part-00001
+1174.4584661224885 '<http://dbpedia.org/resource/Per_capita_income>'
+out/spark/pagerank_data_3/part-00002
+10371.162005541351 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00003
+3692.395898434715 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00004
+2430.8154054741185 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00005
+2335.7145657638675 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00006
+4595.730518177775 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00007
+4111.19562166753 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00008
+36794.3314675452 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00009
+5195.34736186218 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.766305685942 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+1866.5664803302777 '<http://dbpedia.org/resource/Album>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794845 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617282 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.384619364972 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+4963.844326281792 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00006
+3130.513282306785 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_1/part-00007
+4559.675599203778 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00008
+4562.043893593305 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00009
+1482.7338401163888 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_1/part-00010
+2457.195186413979 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_1/part-00011
+4120.470433256855 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_1/part-00012
+21291.97152622568 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00013
+5231.53728628032 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+1940.9682411676092 '<http://dbpedia.org/resource/White_%28U.S._Census%29>'
+out/spark/pagerank_data_2/part-00001
+1803.9857395362417 '<http://dbpedia.org/resource/Scotland>'
+out/spark/pagerank_data_2/part-00002
+2070.5202512091146 '<http://dbpedia.org/resource/Geographic_Names_Information_System>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979427 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065042 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+2323.856830028976 '<http://dbpedia.org/resource/China>'
+out/spark/pagerank_data_2/part-00006
+2764.9934180142513 '<http://dbpedia.org/resource/London>'
+out/spark/pagerank_data_2/part-00007
+2802.339660049338 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_2/part-00008
+5554.338419477101 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00009
+19019.768328301907 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00010
+3354.575288438938 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00011
+2061.8877010509564 '<http://dbpedia.org/resource/Romania>'
+out/spark/pagerank_data_2/part-00012
+6077.055046996698 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00013
+6514.254268522075 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00014
+5163.196851223491 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00015
+3753.0656866506333 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_2/part-00016
+2720.637468962158 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_2/part-00017
+3568.2598547175908 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_2/part-00018
+3582.857934443288 '<http://dbpedia.org/resource/Association_football>'
+out/spark/pagerank_data_2/part-00019
+33095.47261871766 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00020
+2774.2796886153433 '<http://dbpedia.org/resource/Chordate>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+1681.0863470317627 '<http://dbpedia.org/resource/Latin>'
+out/spark/pagerank_data_3/part-00001
+1272.5810267274346 '<http://dbpedia.org/resource/Washington%2C_D.C.>'
+out/spark/pagerank_data_3/part-00002
+3016.2716426127913 '<http://dbpedia.org/resource/Australia>'
+out/spark/pagerank_data_3/part-00003
+1818.8418710648104 '<http://dbpedia.org/resource/World_War_I>'
+out/spark/pagerank_data_3/part-00004
+1679.731371681911 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_3/part-00005
+1968.0592430573963 '<http://dbpedia.org/resource/Poverty_threshold>'
+out/spark/pagerank_data_3/part-00006
+2110.6788474023842 '<http://dbpedia.org/resource/2000_United_States_Census>'
+out/spark/pagerank_data_3/part-00007
+1735.490188180093 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_3/part-00008
+2600.4372449173457 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_3/part-00009
+1170.8616558473511 '<http://dbpedia.org/resource/U.S._state>'
+out/spark/pagerank_data_3/part-00010
+3639.0481278889392 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00011
+3765.4615606124576 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_3/part-00012
+4923.821309315206 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_3/part-00013
+4111.195621667527 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00014
+10371.162005541351 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00015
+5195.347361862181 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00016
+13201.340151981203 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00017
+2335.714565763868 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00018
+4595.730518177777 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00019
+3692.395898434713 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00020
+2430.815405474119 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00021
+1040.25023005841 '<http://dbpedia.org/resource/Arthropod>'
+out/spark/pagerank_data_3/part-00022
+4615.793976336981 '<http://dbpedia.org/resource/Year_of_birth_missing_%28living_people%29>'
+out/spark/pagerank_data_3/part-00023
+1936.6497554060709 '<http://dbpedia.org/resource/Europe>'
+out/spark/pagerank_data_3/part-00024
+2615.925501043568 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_3/part-00025
+1020.76615249733 '<http://dbpedia.org/resource/Austria>'
+out/spark/pagerank_data_3/part-00026
+36794.33146754476 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00027
+906.133041149807 '<http://dbpedia.org/resource/Spanish_language>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.7663056859465 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+1866.5664803302761 '<http://dbpedia.org/resource/Album>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794858 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617283 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.384619364968 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+4963.844326281792 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00006
+3130.5132823067843 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_1/part-00007
+4559.6755992037815 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00008
+4562.043893593312 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00009
+1482.7338401163888 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_1/part-00010
+2457.1951864139787 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_1/part-00011
+4120.470433256852 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_1/part-00012
+21291.971526225676 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00013
+5231.53728628032 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+1940.9682411676092 '<http://dbpedia.org/resource/White_%28U.S._Census%29>'
+out/spark/pagerank_data_2/part-00001
+1803.9857395362412 '<http://dbpedia.org/resource/Scotland>'
+out/spark/pagerank_data_2/part-00002
+2070.5202512091146 '<http://dbpedia.org/resource/Geographic_Names_Information_System>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979425 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065042 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+2323.856830028975 '<http://dbpedia.org/resource/China>'
+out/spark/pagerank_data_2/part-00006
+2764.9934180142504 '<http://dbpedia.org/resource/London>'
+out/spark/pagerank_data_2/part-00007
+2802.339660049339 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_2/part-00008
+5554.338419477109 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00009
+19019.768328301936 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00010
+3354.5752884389353 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00011
+2061.8877010509555 '<http://dbpedia.org/resource/Romania>'
+out/spark/pagerank_data_2/part-00012
+6077.055046996696 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00013
+6514.254268522069 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00014
+5163.196851223488 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00015
+3753.065686650631 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_2/part-00016
+2720.6374689621575 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_2/part-00017
+3568.25985471759 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_2/part-00018
+3582.8579344432865 '<http://dbpedia.org/resource/Association_football>'
+out/spark/pagerank_data_2/part-00019
+33095.47261871768 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00020
+2774.2796886153433 '<http://dbpedia.org/resource/Chordate>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+1681.086347031763 '<http://dbpedia.org/resource/Latin>'
+out/spark/pagerank_data_3/part-00001
+1272.5810267274344 '<http://dbpedia.org/resource/Washington%2C_D.C.>'
+out/spark/pagerank_data_3/part-00002
+3016.2716426127904 '<http://dbpedia.org/resource/Australia>'
+out/spark/pagerank_data_3/part-00003
+1818.8418710648102 '<http://dbpedia.org/resource/World_War_I>'
+out/spark/pagerank_data_3/part-00004
+1679.7313716819108 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_3/part-00005
+1968.0592430573959 '<http://dbpedia.org/resource/Poverty_threshold>'
+out/spark/pagerank_data_3/part-00006
+2110.678847402384 '<http://dbpedia.org/resource/2000_United_States_Census>'
+out/spark/pagerank_data_3/part-00007
+1735.490188180093 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_3/part-00008
+2600.4372449173443 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_3/part-00009
+1170.8616558473514 '<http://dbpedia.org/resource/U.S._state>'
+out/spark/pagerank_data_3/part-00010
+3639.048127888938 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00011
+3765.4615606124585 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_3/part-00012
+4923.821309315209 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_3/part-00013
+4111.195621667526 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00014
+10371.162005541346 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00015
+5195.347361862182 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00016
+13201.340151981201 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00017
+2335.714565763868 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00018
+4595.730518177777 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00019
+3692.395898434715 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00020
+2430.8154054741176 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00021
+1040.2502300584101 '<http://dbpedia.org/resource/Arthropod>'
+out/spark/pagerank_data_3/part-00022
+4615.793976336984 '<http://dbpedia.org/resource/Year_of_birth_missing_%28living_people%29>'
+out/spark/pagerank_data_3/part-00023
+1936.6497554060713 '<http://dbpedia.org/resource/Europe>'
+out/spark/pagerank_data_3/part-00024
+2615.925501043569 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_3/part-00025
+1020.7661524973296 '<http://dbpedia.org/resource/Austria>'
+out/spark/pagerank_data_3/part-00026
+36794.33146754489 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00027
+906.1330411498074 '<http://dbpedia.org/resource/Spanish_language>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.766305685945 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+1866.5664803302764 '<http://dbpedia.org/resource/Album>'
+out/spark/pagerank_data_1/part-00002
+13032.79650279485 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617283 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.384619364968 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+4963.844326281793 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00006
+3130.513282306786 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_1/part-00007
+4559.675599203772 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00008
+4562.043893593304 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00009
+1482.7338401163884 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_1/part-00010
+2457.195186413979 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_1/part-00011
+4120.470433256851 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_1/part-00012
+21291.97152622566 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00013
+5231.53728628032 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+1940.9682411676094 '<http://dbpedia.org/resource/White_%28U.S._Census%29>'
+out/spark/pagerank_data_2/part-00001
+1803.9857395362412 '<http://dbpedia.org/resource/Scotland>'
+out/spark/pagerank_data_2/part-00002
+2070.520251209115 '<http://dbpedia.org/resource/Geographic_Names_Information_System>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979424 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.0777990650395 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+2323.8568300289758 '<http://dbpedia.org/resource/China>'
+out/spark/pagerank_data_2/part-00006
+2764.9934180142527 '<http://dbpedia.org/resource/London>'
+out/spark/pagerank_data_2/part-00007
+2802.339660049338 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_2/part-00008
+5554.338419477101 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00009
+19019.768328301907 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00010
+3354.5752884389335 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00011
+2061.8877010509564 '<http://dbpedia.org/resource/Romania>'
+out/spark/pagerank_data_2/part-00012
+6077.055046996691 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00013
+6514.254268522077 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00014
+5163.196851223493 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00015
+3753.065686650633 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_2/part-00016
+2720.637468962158 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_2/part-00017
+3568.2598547175894 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_2/part-00018
+3582.8579344432865 '<http://dbpedia.org/resource/Association_football>'
+out/spark/pagerank_data_2/part-00019
+33095.472618717635 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00020
+2774.2796886153437 '<http://dbpedia.org/resource/Chordate>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+1681.0863470317622 '<http://dbpedia.org/resource/Latin>'
+out/spark/pagerank_data_3/part-00001
+1272.5810267274348 '<http://dbpedia.org/resource/Washington%2C_D.C.>'
+out/spark/pagerank_data_3/part-00002
+3016.2716426127895 '<http://dbpedia.org/resource/Australia>'
+out/spark/pagerank_data_3/part-00003
+1818.8418710648102 '<http://dbpedia.org/resource/World_War_I>'
+out/spark/pagerank_data_3/part-00004
+1679.7313716819108 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_3/part-00005
+1968.059243057397 '<http://dbpedia.org/resource/Poverty_threshold>'
+out/spark/pagerank_data_3/part-00006
+2110.6788474023842 '<http://dbpedia.org/resource/2000_United_States_Census>'
+out/spark/pagerank_data_3/part-00007
+1735.4901881800924 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_3/part-00008
+2600.437244917346 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_3/part-00009
+1170.8616558473511 '<http://dbpedia.org/resource/U.S._state>'
+out/spark/pagerank_data_3/part-00010
+3639.0481278889383 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00011
+3765.4615606124585 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_3/part-00012
+4923.82130931521 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_3/part-00013
+4111.195621667528 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00014
+10371.162005541353 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00015
+5195.347361862183 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00016
+13201.34015198119 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00017
+2335.7145657638675 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00018
+4595.730518177778 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00019
+3692.395898434714 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00020
+2430.815405474117 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00021
+1040.2502300584101 '<http://dbpedia.org/resource/Arthropod>'
+out/spark/pagerank_data_3/part-00022
+4615.793976336973 '<http://dbpedia.org/resource/Year_of_birth_missing_%28living_people%29>'
+out/spark/pagerank_data_3/part-00023
+1936.6497554060713 '<http://dbpedia.org/resource/Europe>'
+out/spark/pagerank_data_3/part-00024
+2615.925501043567 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_3/part-00025
+1020.76615249733 '<http://dbpedia.org/resource/Austria>'
+out/spark/pagerank_data_3/part-00026
+36794.33146754493 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00027
+906.1330411498076 '<http://dbpedia.org/resource/Spanish_language>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.766305685942 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+1866.5664803302768 '<http://dbpedia.org/resource/Album>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794836 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617281 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.384619364968 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+4963.844326281789 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_1/part-00006
+3130.5132823067847 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_1/part-00007
+4559.675599203781 '<http://dbpedia.org/resource/Village>'
+out/spark/pagerank_data_1/part-00008
+4562.04389359331 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00009
+1482.7338401163884 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_1/part-00010
+2457.195186413976 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_1/part-00011
+4120.47043325685 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_1/part-00012
+21291.971526225694 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00013
+5231.537286280319 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+1940.9682411676092 '<http://dbpedia.org/resource/White_%28U.S._Census%29>'
+out/spark/pagerank_data_2/part-00001
+1803.985739536241 '<http://dbpedia.org/resource/Scotland>'
+out/spark/pagerank_data_2/part-00002
+2070.5202512091146 '<http://dbpedia.org/resource/Geographic_Names_Information_System>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979425 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065042 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+2323.8568300289753 '<http://dbpedia.org/resource/China>'
+out/spark/pagerank_data_2/part-00006
+2764.9934180142513 '<http://dbpedia.org/resource/London>'
+out/spark/pagerank_data_2/part-00007
+2802.3396600493365 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_2/part-00008
+5554.338419477111 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00009
+19019.76832830193 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00010
+3354.575288438936 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_2/part-00011
+2061.887701050956 '<http://dbpedia.org/resource/Romania>'
+out/spark/pagerank_data_2/part-00012
+6077.055046996689 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_2/part-00013
+6514.254268522073 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/part-00014
+5163.196851223494 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00015
+3753.065686650632 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_2/part-00016
+2720.6374689621566 '<http://dbpedia.org/resource/List_of_countries>'
+out/spark/pagerank_data_2/part-00017
+3568.2598547175917 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_2/part-00018
+3582.8579344432874 '<http://dbpedia.org/resource/Association_football>'
+out/spark/pagerank_data_2/part-00019
+33095.472618717606 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00020
+2774.279688615342 '<http://dbpedia.org/resource/Chordate>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+1681.0863470317627 '<http://dbpedia.org/resource/Latin>'
+out/spark/pagerank_data_3/part-00001
+1272.5810267274348 '<http://dbpedia.org/resource/Washington%2C_D.C.>'
+out/spark/pagerank_data_3/part-00002
+3016.271642612789 '<http://dbpedia.org/resource/Australia>'
+out/spark/pagerank_data_3/part-00003
+1818.8418710648114 '<http://dbpedia.org/resource/World_War_I>'
+out/spark/pagerank_data_3/part-00004
+1679.7313716819103 '<http://dbpedia.org/resource/Powiat>'
+out/spark/pagerank_data_3/part-00005
+1968.0592430573959 '<http://dbpedia.org/resource/Poverty_threshold>'
+out/spark/pagerank_data_3/part-00006
+2110.6788474023833 '<http://dbpedia.org/resource/2000_United_States_Census>'
+out/spark/pagerank_data_3/part-00007
+1735.4901881800934 '<http://dbpedia.org/resource/Voivodeships_of_Poland>'
+out/spark/pagerank_data_3/part-00008
+2600.437244917345 '<http://dbpedia.org/resource/India>'
+out/spark/pagerank_data_3/part-00009
+1170.8616558473511 '<http://dbpedia.org/resource/U.S._state>'
+out/spark/pagerank_data_3/part-00010
+3639.0481278889383 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00011
+3765.4615606124576 '<http://dbpedia.org/resource/Canada>'
+out/spark/pagerank_data_3/part-00012
+4923.821309315211 '<http://dbpedia.org/resource/United_Kingdom>'
+out/spark/pagerank_data_3/part-00013
+4111.195621667528 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/part-00014
+10371.162005541351 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00015
+5195.347361862181 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00016
+13201.340151981198 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00017
+2335.7145657638684 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_3/part-00018
+4595.73051817778 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00019
+3692.395898434713 '<http://dbpedia.org/resource/Animal>'
+out/spark/pagerank_data_3/part-00020
+2430.8154054741176 '<http://dbpedia.org/resource/Poland>'
+out/spark/pagerank_data_3/part-00021
+1040.2502300584094 '<http://dbpedia.org/resource/Arthropod>'
+out/spark/pagerank_data_3/part-00022
+4615.793976336985 '<http://dbpedia.org/resource/Year_of_birth_missing_%28living_people%29>'
+out/spark/pagerank_data_3/part-00023
+1936.6497554060704 '<http://dbpedia.org/resource/Europe>'
+out/spark/pagerank_data_3/part-00024
+2615.9255010435686 '<http://dbpedia.org/resource/English_language>'
+out/spark/pagerank_data_3/part-00025
+1020.7661524973302 '<http://dbpedia.org/resource/Austria>'
+out/spark/pagerank_data_3/part-00026
+36794.33146754477 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00027
+906.1330411498072 '<http://dbpedia.org/resource/Spanish_language>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.7663056859465 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+4562.0438935933125 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00002
+13032.79650279482 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.1983406172817 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.3846193649715 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+21291.97152622572 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00006
+5231.537286280324 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+5163.196851223483 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00001
+5554.33841947711 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00002
+19019.7683283019 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979422 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065042 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+33095.472618717795 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00006
+6514.254268522066 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+10371.162005541353 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00001
+5195.347361862183 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00002
+13201.340151981218 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00003
+3639.0481278889424 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00004
+4595.730518177776 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00005
+36794.33146754496 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00006
+4111.195621667527 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.7663056859465 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+4562.04389359331 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794821 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617284 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.38461936497 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+21291.971526225738 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00006
+5231.537286280324 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+5163.196851223486 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00001
+5554.3384194771015 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00002
+19019.76832830191 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00003
+4684.9144809794225 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065034 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+33095.47261871759 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00006
+6514.254268522068 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+10371.16200554135 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00001
+5195.347361862182 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00002
+13201.340151981176 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00003
+3639.048127888938 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00004
+4595.730518177774 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00005
+36794.33146754499 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00006
+4111.195621667528 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.766305685945 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+4562.043893593308 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794843 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.198340617281 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.38461936497 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+21291.971526225698 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00006
+5231.537286280322 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+5163.1968512234835 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00001
+5554.338419477107 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00002
+19019.768328301907 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979423 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.077799065037 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+33095.47261871773 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00006
+6514.254268522071 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+10371.162005541351 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00001
+5195.347361862184 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00002
+13201.340151981218 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00003
+3639.0481278889383 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00004
+4595.730518177776 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00005
+36794.331467545126 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00006
+4111.195621667526 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_1/_SUCCESS
+0 
+out/spark/pagerank_data_1/part-00000
+4896.766305685943 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_1/part-00001
+4562.043893593304 '<http://dbpedia.org/resource/Countries_of_the_world>'
+out/spark/pagerank_data_1/part-00002
+13032.796502794838 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_1/part-00003
+2535.1983406172812 '<http://dbpedia.org/resource/Italy>'
+out/spark/pagerank_data_1/part-00004
+6246.384619364962 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_1/part-00005
+21291.97152622568 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_1/part-00006
+5231.537286280316 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_2/_SUCCESS
+0 
+out/spark/pagerank_data_2/part-00000
+5163.196851223493 '<http://dbpedia.org/resource/England>'
+out/spark/pagerank_data_2/part-00001
+5554.338419477104 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_2/part-00002
+19019.76832830187 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_2/part-00003
+4684.914480979424 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_2/part-00004
+6219.07779906504 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_2/part-00005
+33095.47261871767 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_2/part-00006
+6514.25426852207 '<http://dbpedia.org/resource/Germany>'
+out/spark/pagerank_data_3/_SUCCESS
+0 
+out/spark/pagerank_data_3/part-00000
+10371.162005541348 '<http://dbpedia.org/resource/Race_and_ethnicity_in_the_United_States_Census>'
+out/spark/pagerank_data_3/part-00001
+5195.347361862181 '<http://dbpedia.org/resource/List_of_sovereign_states>'
+out/spark/pagerank_data_3/part-00002
+13201.340151981205 '<http://dbpedia.org/resource/United_States>'
+out/spark/pagerank_data_3/part-00003
+3639.0481278889383 '<http://dbpedia.org/resource/World_War_II>'
+out/spark/pagerank_data_3/part-00004
+4595.730518177776 '<http://dbpedia.org/resource/France>'
+out/spark/pagerank_data_3/part-00005
+36794.331467544966 '<http://dbpedia.org/resource/Living_people>'
+out/spark/pagerank_data_3/part-00006
+4111.195621667529 '<http://dbpedia.org/resource/Germany>'
