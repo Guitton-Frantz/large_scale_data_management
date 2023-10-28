@@ -55,7 +55,7 @@ Liste des fichiers utilisés :
 
 ### Pig
 
-| Nombre de workers | Temps d'éxécution en minutes |
+| Nombre de workers | Temps d'exécution en minutes |
 |---|---|
 | 2 | 51,60811667 |
 | 3 | 42,75751667 |
@@ -64,7 +64,7 @@ Liste des fichiers utilisés :
 
 ### Spark sans Partitionnement
 
-| Nombre de workers | Temps d'éxécution en minutes |
+| Nombre de workers | Temps d'exécution en minutes |
 |---|---|
 | 2 | 40,85586667 |
 | 3 | 39,23098333 |
@@ -73,7 +73,7 @@ Liste des fichiers utilisés :
 
 ### Spark avec Partitionnement
 
-| Nombre de workers | Temps d'éxécution en minutes |
+| Nombre de workers | Temps d'exécution en minutes |
 |---|---|
 | 2 | 39,23416667 |
 | 3 | 38,15843333 |
