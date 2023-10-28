@@ -12,6 +12,22 @@ bash /benchmark/benchmark.sh
 - [@Tristan Ramé](https://github.com/TRRame)
 - [@Marius Guitton-Frantz](https://github.com/Guitton-Frantz)
 
+## Configuration
+
+Pour réaliser cette expérience, nous avons utilisé la configuration suivante pour pig et pour sparks :
+* Le nombre d'itérations pour le page rank était 3
+* Les facteurs page rank étaient 0.85 et 0.15
+* Les nombres de noeuds utilisés étaient 2, 3, 4 et 5
+* Le cluster était situé dans la région Europe-west 2
+* Le bucket  était situé dans la région Europe-west 2
+* Le fichier de données était enregistré dans le bucket
+
+Liste des fichiers utilisés : 
+* Le fichier d'exécution peut être trouvé ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/becnhmark/benchmark.sh
+
+* Le fichier pig ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/dataproc.py
+
+* Le fichier spark ici : https://github.com/Guitton-Frantz/large_scale_data_management/blob/main/pyspark/pagerank.py
 
 ## Results
 
