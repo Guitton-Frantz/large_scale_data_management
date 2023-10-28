@@ -109,5 +109,5 @@ Nous pouvons constater que pig est globalement l'implémentation la moins perfor
 ## Conclusion
 Ce projet nous a permis de mettre en oeuvre les différentes implémentations de pagerank étudiées au sein de ce module dans l'objectif de les comparer. 
 
-Ces résultats sont cohérents avec ce qui a été étudié en cours. Toutefois pour avoir des résultats plus pertinants il faudrait augmenter le nombre noeuds par tranche de 10 afin d'avoir des différences plus nettes. Il faudrait aussi augmenter grandement le nombre d'itérations pour les mêmes raisons. Il serait intéressant aussi de faire varier le nombre d'itérations dans toucher au nombre de noeud pour observer les différences.
+Ces résultats sont cohérents avec ce qui a été étudié en cours. Toutefois pour avoir des résultats plus pertinents il faudrait augmenter le nombre noeuds par tranche de 10 afin d'avoir des différences plus nettes. Il faudrait aussi augmenter grandement le nombre d'itérations pour les mêmes raisons. Il serait intéressant aussi de faire varier le nombre d'itérations sans toucher au nombre de noeud pour observer les différences.
 
