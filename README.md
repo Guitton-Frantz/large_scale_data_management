@@ -51,7 +51,7 @@ Le pagerank pyspark a été modifié afin d'ajouter le partitionnement des rdd l
 
 <a name="resultats"/>
 
-## Resultats
+## Résultats
 
 ### Pig
 
@@ -90,8 +90,8 @@ Le graphique ci-dessous met en lumière les différences de temps entre les diff
 
 <a name="resultats-pagerank"/>
 
-## Resultats PageRank
-Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbpedia.org/resource/Living_people, avec un pagerank de 36794.33146754482.
+## Résultats PageRank
+Nous avons obtenu que l'entité avec le meilleur pagerank est l'uri http://dbpedia.org/resource/Living_people, avec un pagerank de 36794.33146754482.
 
 | URL de la page | Score du PageRank |
 |---|---|
