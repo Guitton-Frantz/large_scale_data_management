@@ -45,10 +45,7 @@ Liste des fichiers utilisés :
 * Code source d'origine utilisé : https://github.com/momo54/large_scale_data_management
 
 ### Modifications apportées
-#### **Fichier Pig**
-* 
 
-#### **Fichier PySpark**
 * Partionnement des données pour obtenir une meilleur localité des données
 
 
