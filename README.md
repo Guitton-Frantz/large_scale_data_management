@@ -69,10 +69,10 @@ Liste des fichiers utilisés :
 
 | Nombre de workers | Temps d'éxécution en minutes |
 |---|---|
-| 2 | 47,32798333 |
-| 3 | 31,35621667 |
-| 4 | 33,54715 |
-| 5 | 34,67181667 |
+| 2 | 40,85586667 |
+| 3 | 39,23098333 |
+| 4 | 35,09608333 |
+| 5 | 34,88228333 |
 
 <a name="comparaison-graphique-des-différentes-implementations"/>
 
