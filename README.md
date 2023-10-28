@@ -44,12 +44,12 @@ Liste des fichiers utilisés :
 
 | Nombre de workers | Temps d'éxécution en minutes |
 |---|---|
-| 2 | 48,53347917451666 |
-| 3 | 39,96790781611666 |
-| 4 | 40,70230198851667 |
-| 5 | 39,5698322265 |
+| 2 | 47,32798333 |
+| 3 | 31,35621667 |
+| 4 | 33,54715 |
+| 5 | 34,67181667 |
 
-##Comparaison graphique des différentes implémentations :
+## Comparaison graphique des différentes implémentations :
 Le graphique ci-dessous met en lumière les différences de temps entre les différentes implémentations du pagerank en fonction du nombre de worker.
 
 ## Result PageRank
@@ -58,8 +58,6 @@ Nous avons obtenu que l'entité avec le meilleur pagerank c'est l'uri http://dbp
 | URL de la page | Score du PageRank |
 |---|---|
 | http://dbpedia.org/resource/Living_people |  36794.33146754482  |
-|   |   |
-|   |   |
 
 
 ## Conclusion
