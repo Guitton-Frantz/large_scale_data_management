@@ -86,6 +86,8 @@ Liste des fichiers utilisés :
 ## Comparaison graphique des différentes implémentations :
 Le graphique ci-dessous met en lumière les différences de temps entre les différentes implémentations du pagerank en fonction du nombre de worker.
 
+![diag_lsdm](https://github.com/Guitton-Frantz/large_scale_data_management/assets/60448956/70b294d3-d107-4a6f-9333-4c3f1a74f7ea)
+
 <a name="resultats-pagerank"/>
 
 ## Resultats PageRank
